@@ -1,0 +1,154 @@
+/** user for all body **/
+body{
+	background: #ffffff;
+	margin: 0;
+}
+
+.line{
+	height: 1px;
+	background: #e2e2e2;
+}
+
+/** user for header**/
+#header_website {
+	height: 200px;
+}
+
+#header_website img{
+	width: auto;
+	height: 120px;
+	margin-top: 40px;
+	float: left;
+}
+
+#header_website a{
+	padding-top: 10px;	
+	padding-left: 20px;
+	color: #237FE1;
+	float: right;
+}
+#header_website a:hover{
+	color: #51b042;
+}
+
+#slide_website{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#nav_website{
+	margin-bottom: 0px;
+}
+
+#nav_website a{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 50px;
+	height: 50px;
+	font-size: 20px;
+	color: #777777;
+}
+
+#nav_website a:hover{
+	color: #e7e7e7;
+	background: #51b042;
+}
+
+#banner_website{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 400px;
+	background-image: url("../images/parallax.jpg");
+	background-position: center;
+}
+
+#myCarousel{
+	margin: 0px;
+	padding: 0px;
+}
+
+.categories_website{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 80px;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.categories_website a{
+	height: 80px;
+	line-height: 80px;
+	font-size: 25px;
+	color: #777777;
+	font-style: bold;
+}
+
+.categories_website a:hover, a:focus, a:active{
+	color: #237FE1;
+}
+.categories_title{
+	height: 80px;
+}
+
+#content_categories{
+	display: table;
+	height: auto;
+}
+.item_categories{
+	margin-bottom: 20px;
+	height: 550px;
+	margin: 0px;
+	padding-left: 0px;padding-right:0px;
+}
+
+.frame_name{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.name_of_item {
+	display: inline-block;
+	padding: 5px;
+	font-size: 11px;
+	color: #237FE1;
+}
+
+#content_topsell{
+	height: auto;
+}
+
+#bottom_website{
+	height: 50px;
+	background: #F2F2F2;	
+}
+#bottom_website p{
+	height: 50px;
+	line-height: 50px;
+}
+
+/** user screen **/
+.menu_of_infomation{
+	min-height: 500px;
+}
+
+.menu_of_infomation a{
+	float: left;
+	width: 100%;
+	color: #237FE1;
+}
+
+.menu_of_infomation a:hover{
+	color: #51b042;
+}
+
+.menu_of_infomation .menu_left{
+	min-height: 500px;
+	border-left: 1px solid #e2e2e2;
+}
+
+.menu_of_infomation .menu_left img{
+	width: 100px;
+	height: auto;
+}
+
